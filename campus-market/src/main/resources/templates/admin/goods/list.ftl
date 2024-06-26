@@ -71,7 +71,7 @@ td{
                             <input type="checkbox" id="check-all"><span></span>
                           </label>
                         </th>
-                        <th>图片</th>
+                        <th>图 片</th>
                         <th>名称</th>
                         <th>发布者(学号)</th>
                         <th>分类</th>
