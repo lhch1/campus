@@ -72,7 +72,7 @@ td{
                           </label>
                         </th>
                         <th>图 片</th>
-                        <th>名称</th>
+                        <th>名 称</th>
                         <th>发布者(学号)</th>
                         <th>分类</th>
                         <th>售价</th>
