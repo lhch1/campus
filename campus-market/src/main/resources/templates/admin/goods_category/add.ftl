@@ -39,7 +39,7 @@
               <div class="card-body">
                 <form action="add" id="user-add-form" method="post" class="row">
                   <div class="input-group m-b-10">
-                    <span class="input-group-addon">分类icon</span>
+                    <span class="input-group-addon">分 类icon</span>
                     <input type="file" id="select-file" style="display:none;" onchange="upload('show-picture-img','icon')">
                     <input type="text" readonly="readonly" class="form-control required" id="icon" name="icon" value="" placeholder="请上传分类icon" tips="请上传分类icon" />
                   	<span class="input-group-btn">
