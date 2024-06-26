@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, goodsCategory-scalable=no" />
-<title>${siteName!""}|物品管理-${title!""}</title>
+<title>${siteName!""}|物品  管理-${title!"  "}</title>
 <#include "../common/header.ftl"/>
 <style>
 td{
@@ -71,8 +71,8 @@ td{
                             <input type="checkbox" id="check-all"><span></span>
                           </label>
                         </th>
-                        <th>图片</th>
-                        <th>名称</th>
+                        <th>图 片</th>
+                        <th>名 称</th>
                         <th>发布者(学号)</th>
                         <th>分类</th>
                         <th>售价</th>
