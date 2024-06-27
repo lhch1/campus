@@ -104,10 +104,18 @@
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-devtools</artifactId>
-        <!-- optional=true, 依赖不会传递, 该项目依赖devtools;
-            之后依赖boot项目的项目如果想要使用devtools, 需要重新引入 -->
+        <!-- optional=true, 依赖不会传�??, 该项目依赖devtools;
+            之后依赖boot项目的项目如果想要使用devtools, �?要重新引�? -->
         <optional>true</optional>
     </dependency>
+<!--  allure add by caohx ���Ա��� https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5 -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-junit5</artifactId>
+			<version>2.27.0</version>
+			<scope>test</scope>
+		</dependency>
+
 </dependencies>
 
     <build>
